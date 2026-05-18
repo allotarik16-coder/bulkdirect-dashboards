@@ -2,7 +2,9 @@
 import { useState } from 'react';
 import AdminDashboardA from '@/components/AdminDashboardA';
 import AdminDashboardB from '@/components/AdminDashboardB';
-import AdminDashboardC from '@/components/AdminDashboardC';
+ import AdminDashboardA from '@/components/AdminDashboardA'
+import AdminDashboardB from '@/components/AdminDashboardB'
+import AdminDashboardC from '@/components/AdminDashboardC;
 
 export default function Home() {
   const [version, setVersion] = useState('A');
