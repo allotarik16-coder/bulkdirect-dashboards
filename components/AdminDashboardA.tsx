@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Plus, BarChart3, Users, TrendingUp, Eye, Edit2, Trash2, Download } from 'lucide-react';
 
 export default function AdminDashboardA() {
-  const [projects, setProjects] = useState([
+  const [projects] = useState([
     { id: 1, client: 'Fashion Boutique', products: 50000, status: 'completed', revenue: 5000, date: '2026-05-10' },
     { id: 2, client: 'Electronics Marketplace', products: 100000, status: 'in-progress', revenue: 15000, date: '2026-05-05' },
     { id: 3, client: 'Dropshipping Agency', products: 150000, status: 'in-progress', revenue: 50000, date: '2026-04-25' },
