@@ -47,8 +47,11 @@ export default function Home() {
 
       {/* Dashboards */}
       {version === 'A' && <AdminDashboardA />}
-      {version === 'B' && <AdminDashboardB />}
-      {version === 'C' && <AdminDashboardC />}
+{version === 'B' && <AdminDashboardB />}
+{version === 'C' && <AdminDashboardC />}
     </div>
+  );
+}
+</div>
   );
 }
