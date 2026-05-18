@@ -1,6 +1,6 @@
 // ADMIN DASHBOARD VERSION C: CORPORATE
 import React, { useState } from 'react';
-import { Plus, Users, TrendingUp, DollarSign, Activity, Eye, Edit2, Trash2, Download, BarChart3 } from 'lucide-react';
+import { Plus, TrendingUp, DollarSign, Activity, Eye, Edit2, Trash2, Download, BarChart3 } from 'lucide-react';
 
 export default function AdminDashboardC() {
   const [projects] = useState([
