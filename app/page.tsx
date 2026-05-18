@@ -45,8 +45,7 @@ export default function Home() {
         </button>
       </div>
 
-      {/* Dashboards */}
-      {version === 'A' && <AdminDashboardA />}
+{version === 'A' && <AdminDashboardA />}
 {version === 'B' && <AdminDashboardB />}
 {version === 'C' && <AdminDashboardC />}
     </div>
