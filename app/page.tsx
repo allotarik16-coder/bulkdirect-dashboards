@@ -47,7 +47,7 @@ export default function Home() {
 
 {version === 'A' && <AdminDashboardA />}
 {version === 'B' && <AdminDashboardB />}
-{version === 'C' && <AdminDashboardC />}
+{version === 'C' && <AdminDashboardC />} 
     </div>
   );
 }
